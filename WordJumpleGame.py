@@ -37,7 +37,6 @@ def shuffler():
 
     word_title.config(text=shuffled_word)
 
-
 def answer():
     if word == entry.get():
         answerlabel.config(text='Correct!', fg="#12c00a")
